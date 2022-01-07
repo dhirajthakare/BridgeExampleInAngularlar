@@ -1,0 +1,23 @@
+<div class="row">
+    <!-- <ngx-loading-bar ></ngx-loading-bar> -->
+    <i class="fa fa-spinner" aria-hidden="true"></i>
+
+    <div class=" col">
+        <div class="card ">
+            <div class="card-header d-flex">
+                <!-- <button class="m-2 btn btn-primary" type="button" disabled>
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                    <span class="visually-hidden">Loading...</span>
+                  </button> -->
+                <h4 class=" m-2 card-title">Width</h4>
+                <button class=" btn btn-sm" style="margin-right: 50px;" (click)="onrefresh()">Refresh</button>
+            </div> 
+            <div class="card-body">
+                <ng-content></ng-content>
+          </div>
+        </div>
+    </div>
+
+</div>
+
+
